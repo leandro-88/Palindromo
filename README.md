@@ -1,13 +1,13 @@
-<h1>Projeto de gerador de números pseudoaleatórios </h1>
+<h1>Projeto de </h1>
 
 <h2>Introdução</h2>
-<p>O objetivo deste projeto é desenvolver um gerador de números pseudoaleatórios utilizando o objeto Math do JavaScript. Este gerador será capaz de produzir uma série de números aleatórios dentro de um intervalo definido pelo usuário.  A aplicação será implementada em uma página web, onde o usuário poderá interagir com o gerador, especificar o intervalo de números e a quantidade de números desejados, e visualizar os números sorteados na tela.</p>
+<p>O objetivo </p>
 
 <h3>Ferramentas e Tecnologias</h3>
 <p> # <b>HTML5:</b> Para a estruturação da página web.</p>
 <p> # <b>CSS3:</b> Para o estilo e layout da aplicação.</p>
-<p> # <b>JavaScript:</b> Para a lógica de geração de números e manipulação do DOM.</p>
-<p> # <b>Objeto Math:</b> Especificamente, utilizaremos Math.random() para gerar números pseudoaleatórios.</p>
+<p> # <b>JavaScript:</b> Para a  DOM.</p>
+<p> # <b>Objeto :</b> Especificamente, utilizaremos M</p>
 
 <h3>Entrada de Dados:</h3>
 
