@@ -18,10 +18,11 @@
 </ul>
 
 <h3>Entrada de Dados</h3>
-
-<p> # <b>Palavras:</b> O usuário pode inserir palavras para verificar se são palíndromos ou não.</p>
-<p> # <b>Verificação:</b> Ao inserir uma palavra, o usuário pode verificar se ela é um palíndromo.</p>
-<p> # <b>Reiniciar:</b> Permite reiniciar o estado da aplicação para realizar novas verificações.</p>
+<ul>
+    <li><b>Palavras:</b> O usuário pode inserir palavras para verificar se são palíndromos ou não.</p></li>
+    <li><b>Verificação:</b> Ao inserir uma palavra, o usuário pode verificar se ela é um palíndromo.</p></li>
+    <li><b>Reiniciar:</b> Permite reiniciar o estado da aplicação para realizar novas verificações.</p></li>
+</ul>
 
 <h3>## �� Tecnologias</h3>
 <div>
