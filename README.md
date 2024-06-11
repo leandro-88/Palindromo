@@ -1,12 +1,11 @@
 <h1>Verificador de Palíndromo</h1>
 
 <h2>Introdução</h2>
-<p>O Analisador de Palíndromos é uma aplicação simples e intuitiva desenvolvida para identificar palíndromos em palavras inseridas pelo usuário. Uma palavra palíndroma é aquela que permanece a mesma quando lida da esquerda para a direita e vice-versa, independentemente de espaços ou pontuação. </p>
-<p>Uma palavra palíndroma é aquela que permanece a mesma quando lida da esquerda para a direita e vice-versa, independentemente de espaços ou pontuação. Este programa foi criado para fornecer uma maneira eficiente de verificar se uma palavra é um palíndromo ou não, além de oferecer uma análise detalhada sobre o resultado de cada verificação.
+<p>  O Analisador de Palíndromos é uma aplicação simples e intuitiva desenvolvida para identificar palíndromos em palavras inseridas pelo usuário. Uma palavra palíndroma é aquela que permanece a mesma quando lida da esquerda para a direita e vice-versa, independentemente de espaços ou pontuação. </p>
+<p>  Uma palavra palíndroma é aquela que permanece a mesma quando lida da esquerda para a direita e vice-versa, independentemente de espaços ou pontuação. Este programa foi criado para fornecer uma maneira eficiente de verificar se uma palavra é um palíndromo ou não, além de oferecer uma análise detalhada sobre o resultado de cada verificação.
 
-Utilizando uma abordagem interativa, o Analisador de Palíndromos permite que o usuário insira uma palavra e receba instantaneamente um feedback sobre sua natureza palindrômica. Além disso, é possível visualizar uma análise completa das palavras que foram identificadas como palíndromos e daquelas que não são.
-
-Desenvolvido com simplicidade e usabilidade em mente, este programa é uma ferramenta valiosa para quem deseja explorar e compreender o fascinante mundo dos palíndromos.</p>
+  Utilizando uma abordagem interativa, o Analisador de Palíndromos permite que o usuário insira uma palavra e receba instantaneamente um feedback sobre sua natureza palindrômica. Além disso, é possível visualizar uma análise completa das palavras que foram identificadas como palíndromos e daquelas que não são.
+</p>
 
 
 <h3>Ferramentas e Tecnologias</h3>
