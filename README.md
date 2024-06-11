@@ -1,7 +1,7 @@
-<h1>Projeto de </h1>
+<h1>Verificador de Palíndromo</h1>
 
 <h2>Introdução</h2>
-<p>O objetivo </p>
+<p>O Analisador de Palíndromos é uma aplicação simples e intuitiva desenvolvida para identificar palíndromos em palavras inseridas pelo usuário. Uma palavra palíndroma é aquela que permanece a mesma quando lida da esquerda para a direita e vice-versa, independentemente de espaços ou pontuação. </p>
 
 <h3>Ferramentas e Tecnologias</h3>
 <p> # <b>HTML5:</b> Para a estruturação da página web.</p>
