@@ -61,6 +61,10 @@ function verificador() {
         alert("Por favor, insira uma palavra antes de verificar!");
         return;
     }
+    if (palavra.split(' ').length > 1) {
+        alert("Por favor, insira apenas uma palavra!");
+        return;
+    }
     if (palavrasArmazenadas.includes(palavra)) {
         alert("Esta palavra já foi inserida!");
         return;
