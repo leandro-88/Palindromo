@@ -17,8 +17,10 @@ function reiniciar() {
     let mensagemNaoPalindromos = palavrasNaoPalindromos.length > 1 ? "As palavras" : "A palavra";
     let verboNaoPalindromos = palavrasNaoPalindromos.length > 1 ? "não são palíndromos" : "não é palíndromo";
     
-    document.getElementById("resultado").innerHTML = `${mensagemPalindromos} <strong style="color: red;">${palavrasPalindromos.join(', ')}</strong> ${verboPalindromos}.<br><br>${mensagemNaoPalindromos} <strong style="color: red;">${palavrasNaoPalindromos.join(', ')}</strong> ${verboNaoPalindromos}.`;
+    document.getElementById("resultado").innerHTML = `${mensagemPalindromos} <strong style="color: red;">${palavrasPalindromos.map(palavra => palavra.toUpperCase()).join(', ')}</strong> ${verboPalindromos}.<br><br>${mensagemNaoPalindromos} <strong style="color: red;">${palavrasNaoPalindromos.map(palavra => palavra.toUpperCase()).join(', ')}</strong> ${verboNaoPalindromos}.`;
+
 }
+
 
 function habilitarBotaoReiniciar() {
     let botao = document.getElementById("btn-reiniciar");
@@ -58,6 +60,7 @@ function palindromo(palavra) {
 
 function verificador() {
     let palavra = document.getElementById("quantidade").value.trim(); 
+    palavra = palavra.toLowerCase();
     if (!palavra) {
         alert("Por favor, insira uma palavra antes de verificar!");
         return; 
@@ -96,5 +99,5 @@ function verificador() {
     let mensagemNaoPalindromos = palavrasNaoPalindromos.length > 1 ? "As palavras" : "A palavra";
     
 
-    document.getElementById("resultado").innerHTML = `A palavra ${palavra} ${palindromo(palavra) ? "é um palíndromo" : "não é um palíndromo"}`;
+    document.getElementById("resultado").innerHTML = `A palavra ${palavra.toUpperCase()} ${palindromo(palavra) ? "é um palíndromo" : "não é um palíndromo"}`;
 }
