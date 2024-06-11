@@ -50,8 +50,9 @@ let verificar = [];
 
 // Função para verificar se uma palavra é um palíndromo
 function palindromo(palavra) {
-    let reversedWord = palavra.split("").reverse().join(""); // Inverte a palavra
-    return palavra === reversedWord; // Retorna true se a palavra original for igual à palavra invertida
+    palavra = palavra.replace(/[^a-zA-Z]/g, "").toLowerCase(); // Remove espaços e pontuações e converte para minúsculas
+    let inverterPalavra = palavra.split("").reverse().join(""); // Inverte a palavra
+    return palavra === inverterPalavra; // Retorna true se a palavra original for igual à palavra invertida
 }
 
 // Função para verificar a palavra inserida
@@ -61,10 +62,7 @@ function verificador() {
         alert("Por favor, insira uma palavra antes de verificar!");
         return;
     }
-    if (palavra.split(' ').length > 1) {
-        alert("Por favor, insira apenas uma palavra!");
-        return;
-    }
+    
     if (palavrasArmazenadas.includes(palavra)) {
         alert("Esta palavra já foi inserida!");
         return;
