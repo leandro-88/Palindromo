@@ -38,6 +38,15 @@ function alterarEstadoBotao(idBotao, habilitado) {
     botao.classList.toggle("container__botao", habilitado);
 }
 
+// Função para verificar se é uma frase ou palavra
+function verificarTipo(texto) {
+    if (texto.split(" ").length > 1) {
+        return "frase";
+    } else {
+        return "palavra";
+    }
+}
+
 // Desabilita o botão de reiniciar inicialmente
 desabilitarBotaoReiniciar();
 
@@ -57,23 +66,23 @@ function palindromo(palavra) {
 
 // Função para verificar a palavra inserida
 function verificador() {
-    let palavra = document.getElementById("quantidade").value.trim().toLowerCase();
-    if (!palavra) {
-        alert("Por favor, insira uma palavra antes de verificar!");
+    let texto = document.getElementById("quantidade").value.trim().toLowerCase();
+    if (!texto) {
+        alert("Por favor, insira uma palavra ou frase antes de verificar!");
         return;
     }
     
-    if (palavrasArmazenadas.includes(palavra)) {
-        alert("Esta palavra já foi inserida!");
+    if (palavrasArmazenadas.includes(texto)) {
+        alert(`Este ${verificarTipo(texto)} já foi inserido!`);
         return;
     }
 
-    palavrasArmazenadas.push(palavra);
+    palavrasArmazenadas.push(texto);
     resultado = [];
     verificar = [];
 
-    for (let i = 0; i < palavra.length; i++) {
-        resultado.push(palavra[i]);
+    for (let i = 0; i < texto.length; i++) {
+        resultado.push(texto[i]);
     }
 
     let resultadoCopia = [...resultado]; // Copia do array usando spread operator
@@ -81,12 +90,22 @@ function verificador() {
         verificar.push(resultadoCopia.pop());
     }
 
-    if (palindromo(palavra)) {
-        palavrasPalindromos.push(palavra);
-        document.getElementById("resultado").innerHTML = `A palavra ${palavra.toUpperCase()} é um palíndromo.`;
+    if (verificarTipo(texto) === "frase") {
+        if (palindromo(texto)) {
+            palavrasPalindromos.push(texto);
+            document.getElementById("resultado").innerHTML = `A frase "${texto.toUpperCase()}" é um palíndromo.`;
+        } else {
+            palavrasNaoPalindromos.push(texto);
+            document.getElementById("resultado").innerHTML = `A frase "${texto.toUpperCase()}" não é um palíndromo.`;
+        }
     } else {
-        palavrasNaoPalindromos.push(palavra);
-        document.getElementById("resultado").innerHTML = `A palavra ${palavra.toUpperCase()} não é um palíndromo.`;
+        if (palindromo(texto)) {
+            palavrasPalindromos.push(texto);
+            document.getElementById("resultado").innerHTML = `A palavra "${texto.toUpperCase()}" é um palíndromo.`;
+        } else {
+            palavrasNaoPalindromos.push(texto);
+            document.getElementById("resultado").innerHTML = `A palavra "${texto.toUpperCase()}" não é um palíndromo.`;
+        }
     }
 
     habilitarBotaoReiniciar();
