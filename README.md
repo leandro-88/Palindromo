@@ -27,4 +27,4 @@
 </div>
 
 <p>Confira o Deploy desse projeto</p>
-    <p>Confira o <a href="https://gerador-de-numeros-pseudoaleatorios.vercel.app/">gerador de números pseudoaleatórios</a>.</p>
+    <p>Confira o <a href="https://analise-palindromo.vercel.app/">gerador de números pseudoaleatórios</a>.</p>
