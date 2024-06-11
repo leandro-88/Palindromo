@@ -32,4 +32,4 @@
 </div>
 
 <p>Confira o Deploy desse projeto</p>
-    <p>Confira o <a href="https://alugue-de-jogos.vercel.app/">verificador de palíndromo</a>.</p>
+    <p>Confira o <a href="https://analise-palindromo.vercel.app/">verificador de palíndromo</a>.</p>
