@@ -1,28 +1,27 @@
 <h1>Verificador de Palíndromo</h1>
 
-<h2>Introdução</h2>
-<h2>Introdução</h2>
-<p style="margin-top: 10px; margin-bottom: 10px;">  O Analisador de Palíndromos é uma aplicação simples e intuitiva desenvolvida para identificar palíndromos em palavras inseridas pelo usuário. Uma palavra palíndroma é aquela que permanece a mesma quando lida da esquerda para a direita e vice-versa, independentemente de espaços ou pontuação. </p>
-<p style="margin-top: 10px; margin-bottom: 10px;">  Uma palavra palíndroma é aquela que permanece a mesma quando lida da esquerda para a direita e vice-versa, independentemente de espaços ou pontuação. Este programa foi criado para fornecer uma maneira eficiente de verificar se uma palavra é um palíndromo ou não, além de oferecer uma análise detalhada sobre o resultado de cada verificação.</p>
-<p style="margin-top: 10px; margin-bottom: 10px;">Utilizando uma abordagem interativa, o Analisador de Palíndromos permite que o usuário insira uma palavra e receba instantaneamente um feedback sobre sua natureza palindrômica. Além disso, é possível visualizar uma análise completa das palavras que foram identificadas como palíndromos e daquelas que não são.
-</p>
+## Introdução
+
+<p style="margin-top: 100px; margin-bottom: 10px;">O Analisador de Palíndromos é uma aplicação simples e intuitiva desenvolvida para identificar palíndromos em palavras inseridas pelo usuário. Uma palavra palíndroma é aquela que permanece a mesma quando lida da esquerda para a direita e vice-versa, independentemente de espaços ou pontuação.</p>
+
+<p style="margin-top: 100px; margin-bottom: 10px;">Uma palavra palíndroma é aquela que permanece a mesma quando lida da esquerda para a direita e vice-versa, independentemente de espaços ou pontuação. Este programa foi criado para fornecer uma maneira eficiente de verificar se uma palavra é um palíndromo ou não, além de oferecer uma análise detalhada sobre o resultado de cada verificação.</p>
+
+<p style="margin-top: 100px; margin-bottom: 10px;">Utilizando uma abordagem interativa, o Analisador de Palíndromos permite que o usuário insira uma palavra e receba instantaneamente um feedback sobre sua natureza palindrômica. Além disso, é possível visualizar uma análise completa das palavras que foram identificadas como palíndromos e daquelas que não são.</p>
 
 
-<h3>Ferramentas e Tecnologias</h3>
-<p> # <b>HTML5:</b> Para a estruturação da página web.</p>
-<p> # <b>CSS3:</b> Para o estilo e layout da aplicação.</p>
-<p> # <b>JavaScript:</b> Para a  DOM.</p>
-<p> # <b>Objeto :</b> Especificamente, utilizaremos M</p>
 
-<h3>Entrada de Dados:</h3>
+<h3>Tecnologias Utilizadas</h3>
+<ul>
+    <li><b>HTML5:</b> Utilizado para a estruturação da página web.</li>
+    <li><b>CSS3:</b> Responsável pelo estilo e layout da aplicação.</li>
+    <li><b>JavaScript:</b> Utilizado para a funcionalidade da DOM.</li>
+</ul>
 
-<p> # <b>Quantidade de Números:</b> O usuário poderá especificar quantos números deseja gerar.</p>
-<p> # <b>Intervalo de Números:</b> O usuário definirá o intervalo mínimo e máximo dos números a serem gerados.</p>
-<p> # <b>Geração de Números:</b> O usuário poderá redefinir os campos de entrada e gerar novos números.</p>
+<h3>Entrada de Dados</h3>
 
-
-<h3>Sobre</h3>
-<p>Projeto utilizado nos cursos de lógica de programação da Alura.</p>
+<p> # <b>Palavras:</b> O usuário pode inserir palavras para verificar se são palíndromos ou não.</p>
+<p> # <b>Verificação:</b> Ao inserir uma palavra, o usuário pode verificar se ela é um palíndromo.</p>
+<p> # <b>Reiniciar:</b> Permite reiniciar o estado da aplicação para realizar novas verificações.</p>
 
 <h3>## �� Tecnologias</h3>
 <div>
